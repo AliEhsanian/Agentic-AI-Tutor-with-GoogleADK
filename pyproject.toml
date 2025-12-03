@@ -1,0 +1,11 @@
+[project]
+name = "agentic-ai-tutor-with-googleadk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-adk[eval]>=1.19.0",
+    "google-genai>=1.52.0",
+    "python-dotenv>=1.2.1",
+]

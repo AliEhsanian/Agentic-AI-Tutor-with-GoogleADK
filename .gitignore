@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+.python-version
+*.py[oc]
+build/
+dist/
+wheels/
+.vscode
+.DS_Store
+uv.lock
+
+# Virtual environments
+.venv
+.env
