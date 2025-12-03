@@ -103,7 +103,7 @@ LLM configuration (`core/llm.py`) centralizes Gemini model setup (model name, re
 ```mermaid
 flowchart TD
 
-    U[User] -->|messages| R[ai_tutor_root]
+    U[User] -->|messages| R[root_tutor_agent]
 
     R -->|new learner / profile incomplete| P[profiling_agent]
     R -->|lesson request| L[lesson_pipeline_agent]
